@@ -24,7 +24,7 @@ import telethon;from telethon import functions
 from telethon.tl.types import ChannelParticipantsAdmins as cpa
 
 from telethon.tl.functions.channels import CreateChannelRequest as ccr
-mybot = os.environ.get("USER_BOT")
+mybot = os.environ.get(Config.USER_BOT)
 bot = borg = client
 
 SourceZe = 6509622797
