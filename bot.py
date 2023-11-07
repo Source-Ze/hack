@@ -9,7 +9,7 @@ from telethon import TelegramClient, events, functions, types, Button
 from datetime import timedelta
 import asyncio
 
-API_ID = ("21627756")
+
 import os, asyncio, re
 from os import system
 from telethon.tl.types import ChannelParticipantsAdmins, ChannelParticipantAdmin, ChannelParticipantCreator
