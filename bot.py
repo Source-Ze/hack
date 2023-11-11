@@ -8,14 +8,10 @@ import os
 from telethon import TelegramClient, events, functions, types, Button
 from datetime import timedelta
 import asyncio
-
-
 import os, asyncio, re
 from os import system
 from telethon.tl.types import ChannelParticipantsAdmins, ChannelParticipantAdmin, ChannelParticipantCreator
-API_HASH = (Config.API_HASH)
-token = os.environ.get(Config.TG_BOT_TOKEN)
-client = TelegramClient('SourceZe', Config.APP_ID, Config.API_HASH).start(bot_token=token)
+client = TelegramClient('SourceZe', 21627756, "fe77fbf0cae9f7f5ece37659e2466cf1").start(bot_token=Config.TG_BOT_TOKEN)
 from telethon import TelegramClient as tg
 from telethon.tl.functions.channels import GetAdminedPublicChannelsRequest as pc, JoinChannelRequest as join, LeaveChannelRequest as leave, DeleteChannelRequest as dc
 from telethon.sessions import StringSession as ses
@@ -24,15 +20,15 @@ import telethon;from telethon import functions
 from telethon.tl.types import ChannelParticipantsAdmins as cpa
 
 from telethon.tl.functions.channels import CreateChannelRequest as ccr
-mybot = os.environ.get(Config.USER_BOT)
+mybot = os.environ.get("N444NBOT")
 bot = borg = client
 
 SourceZe = 6509622797
 
-api_id = (Config.APP_ID)
-api_hash = (Config.API_HASH)
+api_id = Config.APP_ID 
+api_hash = Config.API_HASH 
 
-Bot_Username =(mybot , None) or "tmux_sythonbot"
+Bot_Username =(mybot , None) or "N444NBOT"
 
 async def change_number_code(strses, number, code, otp):
   async with tg(ses(strses), 21627756, "fe77fbf0cae9f7f5ece37659e2466cf1") as X:
