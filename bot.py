@@ -11,7 +11,6 @@ import asyncio
 import os, asyncio, re
 from os import system
 from telethon.tl.types import ChannelParticipantsAdmins, ChannelParticipantAdmin, ChannelParticipantCreator
-API_HASH = ("fe77fbf0cae9f7f5ece37659e2466cf1")
 token = os.environ.get("6307474358:AAEin460r-2FvQttBO-hceYvDglAVVef4x0")
 client = TelegramClient('ArabicHack', 21627756, "fe77fbf0cae9f7f5ece37659e2466cf1").start(bot_token=token)
 from telethon import TelegramClient as tg
